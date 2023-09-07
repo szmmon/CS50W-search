@@ -8,22 +8,35 @@
   </head>
   <body>
     <div class="header">
-      <div class="head-element">Advanced search</div>
-      <div class="head-element">Images</div>
+      <div class="head-element">
+        <a href="https://www.google.com/advanced_search">Advanced search</a>
+      </div>
+      <div class="head-element">
+        <a href="https://www.google.com/imghp?hl=en">Images</a>
+      </div>
     </div>
     <div class="main">
       <div class="logo">
-        <p>
+        <!-- <p>
           <span style="color: blue">G</span>
           <span style="color: red">o</span>
           <span style="color: yellow">o</span>
           <span style="color: blue">g</span>
           <span style="color: green">l</span>
           <span style="color: red">e</span>
-        </p>
+        </p> -->
+        <img src="google-logo.jpg" />
       </div>
-      <input type="text" placeholder="enter text" />
-      <button class="main-element">I'm feeling lucky</button>
+      <form class="search-bar" action="https://www.google.com/search">
+        <input
+          class="search-bar-text"
+          type="text"
+          placeholder="enter text"
+          name="q"
+        />
+        <input class="main-element" type="submit" value="Search" />
+        <button class="main-element">I'm feeling lucky</button>
+      </form>
     </div>
     <div class="footer">
       <div class="footer-element">About</div>
